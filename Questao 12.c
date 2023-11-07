@@ -7,7 +7,8 @@
 
 int main()
 {
-     setlocale(LC_ALL, "");
+     setlocale(LC_ALL, portuguese"");
+     
    int numero;
    int i;
    float contadorNum=0;
@@ -17,16 +18,19 @@ int main()
 
 
    for (i = 5; i >= 1; i--)
+
    {
-    printf("Digite a nota %d:\n", i);
+    printf("Coloque uma nota %d:\n", i);
     scanf("%d", &numero);
     contadorNum++;
     soma+=numero;
+
    }   
+   
      media=(soma/contadorNum);
  
 
-   printf("A media dos numeros e:%.2f", media);
+   printf("Essa media dos numeros e:%.2f", media);
    
 
     return 0;
