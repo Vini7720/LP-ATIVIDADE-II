@@ -1,11 +1,3 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -17,23 +9,24 @@ int
 main ()
 {
   setlocale (LC_ALL, "");
+  
 
-  printf ("Qual a temperatura atual?\n");
+  printf ("No momento qual a temperatura?\n");
   scanf ("%i", &temperatura);
 
   if (temperatura > 25)
     {
-      printf ("Hoje o clima esta ensolarado!\n");
+      printf ("Hoje o clima fica ensolarado!\n");
     }
 
   else if (temperatura < 15)
     {
-      printf ("O clima esta chuvoso!");
+      printf ("O clima fica chuvoso!");
     }
 
   else
     {
-      printf ("O clima esta nublado!");
+      printf ("O clima fica nublado!");
     }
 
 
