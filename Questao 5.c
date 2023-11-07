@@ -1,11 +1,3 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -14,7 +6,7 @@ Welcome to GDB Online.
 int escolha;
 int main()
 {
-    printf("Escolha um idioma de sua preferencia:\n");
+    printf("Indique um idioma de sua preferencia:\n");
     printf("1 - Ingles:\n");
     printf("2 - Espanhol:\n");
     printf("3 - Frances:\n");
@@ -23,19 +15,19 @@ int main()
     switch (escolha)
 {
 case 1:
-   printf ("Seja bem-vindo(a), o idioma escolhido foi Ingles.");
+   printf ("Seja bem-recebido(a), o idioma indicado foi o Ingles.");
     break;
     
     case 2:
-   printf ("Seja bem-vindo(a), o idioma escolhido foi Espanhol.");
+   printf ("Seja bem-recebido(a), o idioma indicado foi o Espanhol.");
     break;
     
     case 3:
-   printf ("Seja bem-vindo(a), o idioma escolhido foi Frances.");
+   printf ("Seja bem-recebido(a), o idioma indicado foi o Frances.");
     break;
 
 default:
-printf ("Opcao invalida!");
+printf ("A opcao sera invalida!");
     break;
 }
 
